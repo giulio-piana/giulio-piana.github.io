@@ -1,7 +1,566 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Giulio Piana - Senior Game Developer with 12+ years of experience in Unity3D, C#, and mobile game development. Expert in gameplay programming, team leadership, and game prototyping.">
+    <meta name="keywords" content="game developer, Unity3D, C#, mobile games, gameplay programming, team leadership, game development, prototyping">
+    <meta name="author" content="Giulio Piana">
+    <meta property="og:title" content="Giulio Piana - Senior Game Developer">
+    <meta property="og:description" content="12+ years of experience in game development, from prototyping to live operations">
+    <meta property="og:type" content="website">
+    <title>Giulio Piana - Senior Game Developer</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GP</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-image"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <span class="hero-name">Giulio Piana</span>
+                    <span class="hero-role">Senior Game Developer</span>
+                </h1>
+                <p class="hero-description">
+                    12+ years of experience crafting engaging games from prototyping to live operations. 
+                    Expert in Unity3D, C#, and leading development teams to create memorable gaming experiences.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/giuliopiana/" target="_blank" rel="noopener" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:giulio6686@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating engaging gaming experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <p>
+                            I'm a passionate Senior Game Developer with over 12 years of experience across all stages of game production. 
+                            My journey has taken me from co-founding an independent studio to leading teams at major gaming companies like 
+                            Gameloft, Miniclip, and Voodoo.io.
+                        </p>
+                        <p>
+                            I specialize in Unity3D and C# development, with expertise in gameplay programming, metagame design, 
+                            and team leadership. My entrepreneurial mindset and analytical approach help me solve complex technical 
+                            challenges while maintaining focus on player experience.
+                        </p>
+                    </div>
+                    
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-content">
+                                <h3>Lead Game Developer</h3>
+                                <p class="company">Gajabuja (Singapore)</p>
+                                <p>Led engineering team for mobile word puzzle social game from MVP to beta release</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-content">
+                                <h3>Senior Gameplay Developer</h3>
+                                <p class="company">Voodoo.io (France)</p>
+                                <p>Led rapid ideation team for hybrid casual RPG & tower defense prototypes</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2019-2024</div>
+                            <div class="timeline-content">
+                                <h3>Senior Gameplay Developer</h3>
+                                <p class="company">Gameloft SA (France)</p>
+                                <p>Managed developer team in Gamelab prototyping division</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2016-2019</div>
+                            <div class="timeline-content">
+                                <h3>Lead Client Developer</h3>
+                                <p class="company">Miniclip SA (Italy)</p>
+                                <p>Led development teams on mobile games from prototyping to live service</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item">
+                            <div class="timeline-date">2012-2016</div>
+                            <div class="timeline-content">
+                                <h3>Co-founder</h3>
+                                <p class="company">Broken Arms Games</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-skills">
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Unity3D (Expert)</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C# Programming</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Mobile Development</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Game Analytics</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-robot"></i>
+                                <span>AI & Automation</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-users"></i>
+                                <span>Team Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats-section">
+                        <div class="stat-item">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Delivered</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Major Studios</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Games that showcase my expertise and passion</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://games.assets.gameloft.com/assets/Auto_Defense_Downloadable_Content_1_9da28e4955.png" alt="Auto Defense Game" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.gameloft.com/game/auto-defense" class="project-link" aria-label="View project details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Auto Defense</h3>
+                        <p class="project-company">Gameloft</p>
+                        <p class="project-description">
+                            Developed core roguelite tower defense mechanics with elemental and special ability combos. 
+                            Designed progression systems to enhance replayability.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity3D</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">iOS/Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://play-lh.googleusercontent.com/oRggBFDJzrDVD-cLzMjtiRq1gYmiRtb4KAlD1C8f_rcpNyGrtvV_vyuFMY_9SSz9oONG=w2560-h1440" alt="Golf Battle Game" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=games.onebutton.golfbattle&hl=it&pli=1" class="project-link" aria-label="View project details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Golf Battle</h3>
+                        <p class="project-company">Miniclip</p>
+                        <p class="project-description">
+                            Led team of 5 developers to create multiplayer 3D minigolf gameplay. 
+                            Integrated live features including loot boxes and character customization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity3D</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">iOS/Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://play-lh.googleusercontent.com/g-6VRhap8ycToISH82pmUrlP7NxFybTxD4Ct7J7fiXEn0miLVABjDSOs2mwV_FMOrw=w2560-h1440" alt="Football Strike Game" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://play.google.com/store/apps/details?id=com.miniclip.footballstrike&hl=it" class="project-link" aria-label="View project details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Football Strike</h3>
+                        <p class="project-company">Miniclip</p>
+                        <p class="project-description">
+                            Developed core shooting mechanics and metagame elements. 
+                            Led project from Alpha to live release with team of 4 developers.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity3D</span>
+                            <span class="tech-tag">Physics</span>
+                            <span class="tech-tag">iOS/Android</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/603100/ss_21011d3c6cc947d0858004a79e1c019df15facdb.600x338.jpg?t=1725002710" alt="Atomine Game" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://store.steampowered.com/app/603100/ATOMINE/" class="project-link" aria-label="View project details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Atomine</h3>
+                        <p class="project-company">Broken Arms Games</p>
+                        <p class="project-description">
+                            Implemented core gameplay mechanics, AI systems, and Steam integration. 
+                            Built procedural level generation system for enhanced replayability.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity3D</span>
+                            <span class="tech-tag">PC/Xbox</span>
+                            <span class="tech-tag">Steam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">How I can help bring your game vision to life</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="service-title">Gameplay Programming</h3>
+                    <p class="service-description">
+                        Expert Unity3D and C# development for core gameplay mechanics, 
+                        player systems, and interactive features that engage players.
+                    </p>
+                    <ul class="service-features">
+                        <li>Unity3D Expert Development</li>
+                        <li>C# Programming</li>
+                        <li>Game Mechanics Design</li>
+                        <li>Player Systems</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title">Team Leadership</h3>
+                    <p class="service-description">
+                        Experienced in leading development teams, mentoring developers, 
+                        and managing agile projects from conception to live operations.
+                    </p>
+                    <ul class="service-features">
+                        <li>Team Management</li>
+                        <li>Developer Mentoring</li>
+                        <li>Agile Development</li>
+                        <li>Project Planning</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="service-title">Rapid Prototyping</h3>
+                    <p class="service-description">
+                        Quick iteration and prototyping to test game concepts, 
+                        validate mechanics, and accelerate development cycles.
+                    </p>
+                    <ul class="service-features">
+                        <li>MVP Development</li>
+                        <li>Concept Validation</li>
+                        <li>Quick Iteration</li>
+                        <li>Market Testing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="service-title">Mobile Game Development</h3>
+                    <p class="service-description">
+                        Specialized in iOS and Android game development with focus on 
+                        performance optimization and platform-specific features.
+                    </p>
+                    <ul class="service-features">
+                        <li>iOS/Android Development</li>
+                        <li>Performance Optimization</li>
+                        <li>Platform Integration</li>
+                        <li>Live Operations</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Game Analytics & Optimization</h3>
+                    <p class="service-description">
+                        Data-driven approach to game improvement using analytics tools 
+                        and player behavior analysis for better retention and engagement.
+                    </p>
+                    <ul class="service-features">
+                        <li>Analytics Integration</li>
+                        <li>Player Behavior Analysis</li>
+                        <li>Performance Metrics</li>
+                        <li>Optimization Strategies</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">AI & Automation</h3>
+                    <p class="service-description">
+                        Implementation of AI-assisted workflows and automation tools 
+                        to streamline development processes and improve efficiency.
+                    </p>
+                    <ul class="service-features">
+                        <li>AI-Assisted Development</li>
+                        <li>Workflow Automation</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Tool Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to discuss your next game project?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in discussing new opportunities, 
+                        sharing knowledge, or collaborating on exciting game projects.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:giulio6686@gmail.com" class="contact-value">giulio6686@gmail.com</a>
+                            </div>
+                        </div>                  
+                       
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/giuliopiana/" target="_blank" rel="noopener" class="contact-value">linkedin.com/in/giuliopiana</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/giuliopiana/" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:giulio6686@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>                        
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">GP</span>
+                    </div>
+                    <p class="footer-text">
+                        Senior Game Developer crafting engaging experiences with 12+ years of expertise.
+                    </p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#services">Services</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/giuliopiana/" target="_blank" rel="noopener" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:giulio6686@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Giulio Piana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
