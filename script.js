@@ -572,6 +572,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const images = slider.querySelectorAll('.slider-image');
         const totalImages = images.length;
 
+        // Skip if no images found (e.g., for video cards)
+        if (totalImages === 0) return;
+
         const randomizeInterval = () => Math.floor(Math.random() * 3000) + 4000; // Random interval between 4s and 7s
 
         const slideImages = () => {
@@ -581,6 +584,13 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         setTimeout(slideImages, randomizeInterval());
+    });
+
+    // Initialize prototype videos
+    document.querySelectorAll('.prototype-video-player').forEach(video => {
+        video.play().catch(error => {
+            console.log('Video autoplay prevented:', error);
+        });
     });
 });
 
