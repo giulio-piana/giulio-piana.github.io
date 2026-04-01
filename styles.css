@@ -588,6 +588,22 @@ body {
     padding: var(--spacing-3xl) 0;
 }
 
+.projects-category {
+    margin-bottom: var(--spacing-3xl);
+}
+
+.projects-category-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-sm);
+    border-bottom: 2px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -682,6 +698,31 @@ body {
     color: var(--primary-color);
     font-weight: 500;
     margin-bottom: var(--spacing-md);
+}
+
+.project-downloads {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    color: #b8860b;
+    background: linear-gradient(135deg, #fff8dc, #ffd700);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.2em 0.65em;
+    border-radius: 20px;
+    border: 1px solid #e6b800;
+    box-shadow: 0 1px 6px rgba(255, 215, 0, 0.35);
+    margin-bottom: var(--spacing-md);
+}
+
+.project-downloads::before {
+    content: "\f058";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 0.85em;
+    color: #b8860b;
 }
 
 .project-description {
