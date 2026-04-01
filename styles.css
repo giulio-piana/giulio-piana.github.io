@@ -321,6 +321,7 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
+    padding-top: 75px;
 }
 
 .hero-background {
